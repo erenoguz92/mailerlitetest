@@ -1,0 +1,340 @@
+
+
+:root {
+    --bs-body-font-family: 'Inter', sans-serif;;
+
+}
+
+.inter-bold {
+    font-weight: 700;
+}
+
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+p{
+    font-size: 20px;
+}
+
+i{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.fs-5{
+    font-size: 16px !important;
+}
+
+.fs-6{
+    font-size: 14px !important;
+}
+
+.text-muted{
+    color: #7F7F7F !important;
+}
+
+.btn-success{
+    background-color: #09C269;
+    padding: 14px 26px;
+}
+
+
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.banner-text {
+    width: 395px;
+}
+
+.banner-text>h1{
+    font-weight: 700;
+}
+
+
+
+.star-object{
+    top: 0;
+    right: -32px;
+}
+
+
+
+.banner-bottom {
+    height: 183px;
+    /* height: 479px; */
+    background-image: url('../images/gradient-background.svg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin-top: 86px;
+}
+
+.banner-bottom>.row .col:last-child{
+    color: #fff;
+}         
+
+.banner-item {
+    width: 271px;
+}
+
+.banner-item h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.banner-item-image{
+    margin-right: 30px;
+}
+
+
+.banner-discount{
+    top:30px;
+    left: auto;
+    right:55px;
+    z-index: 10;
+}
+
+.banner-call-action{
+    left:40px;
+    bottom:-26px;
+}
+
+
+.card-banner{
+    border:0;
+    box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+
+    border-radius: 200px;
+}
+
+.card-banner .card-body{
+    padding: 25px 19px 25px 16px;
+}
+
+.card-banner .card-text{
+    font-size: 12px;
+}
+
+.card-banner .card-title{
+    font-size: 16px;
+}
+
+
+
+
+
+
+.book-banner{
+    margin-top: 100px;
+}
+
+.book-banner-item.active{
+    margin-top: -55px;
+}
+
+.book-banner-item.active .text-content>div>p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.book-banner-item.active .text-content>div>p:last-child{
+    font-size: 16px;
+}
+
+.book-banner-item.active .text-content{
+    margin-top: 38px;
+}
+
+
+.book-banner-item .text-content{
+    margin-top: -10px;
+}
+
+.book-price {
+    z-index: 10;
+    width: 150px;
+}
+
+.nav-button{
+    width: 60px;
+    padding:0;
+}
+
+.nav-button-left{
+    left:-59px;
+    right: auto;
+}
+
+.nav-button-right{
+    left:auto;
+    right:-117px;
+}
+
+
+
+
+.guide{
+    height: 498px;
+    background-image: url('../images/guide.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: #fff
+}
+
+
+
+.section-newsletter{
+    background-color: #171717;
+    color: #fff
+}
+
+.section-newsletter .input-group{
+    background: #fff;
+    width: 465px;
+}
+
+.newsletter-heading{
+    font-size: 34px;
+}
+
+
+
+.newsletter-input input{
+    padding-right: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    margin-right: 7px;
+    border: 0;
+
+}
+
+.newsletter-input button{
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    top: auto;
+    bottom: auto;
+    left: auto;
+
+    border-color: #08c269;
+}
+
+
+.dividier-container{
+    margin-top: 109px;
+}
+
+.dividier-container h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.01em;
+    margin: 10px 0 20px; 
+} 
+ 
+.dividier-container  h2 span { 
+    background:#fff; 
+    padding: 0 31px;
+}
+ 
+
+.image-offset{
+    padding-right: 25%;
+}
+
+.categories-content{
+    height: 723px;
+    background-image: url('../images/gradient-background-big.png');
+    background-size:auto 100% ;
+    background-repeat: no-repeat ;
+    color: #fff;
+}
+
+.book-line{
+    color: #fff;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: -25px;
+}
+
+.book-line-container{
+    height: 546px;
+    margin-left: -125px;
+    width: calc(100% + 250px);
+}
+
+
+.book-line .content{
+    min-width: 307px;
+    flex: 1;
+}
+
+.book-line p{
+    font-size: 14px;
+    color: #7F7F7F;
+}
+
+.book-line img{
+    max-width: 200px;
+}
+
+
+.book-line .content-image{
+    margin-bottom: 40px;
+}
+
+.book-line .content-text{
+    max-width: 273px;
+}
+
+.book-line .content-text>div{
+    margin-bottom: 13px;
+}
+
+.book-line .content-text p{
+    margin-bottom: 0;
+}
+
+
+.book-line .content-top .content-image{
+    margin-bottom: 0;
+    margin-top: 29px;
+}
+
+
+.content-black{
+    color: #000;
+}
+
+.content-black p{
+    color: #171717;
+}
+
+
+
+.offset-content{
+    padding-right: 150px;
+}
+
+.what-say .card-banner{
+    border:0;
+}
+
+.what-say .card-radius{
+    border-radius: 14px;
+}
+

@@ -1,0 +1,88 @@
+
+                            .swiper {
+                                width: 100%;
+                                height: 471px;
+                            }
+
+                            .swiper-slide {
+                                
+                                /* height: 266px; */
+                                display:flex;
+                                background: #eee;
+                                align-items: center;
+                                justify-content:center;
+                                /* transition:all 200ms linear;
+                                transform: scale(0.8)!important; */
+                            }
+
+                            .swiper-slide.swiper-slide-active{
+                                /* transform: scale(1)!important;
+                                background: #fc0 */
+                            }
+<!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/slider-book.png" alt="">
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/slider-book-2.png" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/slider-book-3.png" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/slider-book-4.png" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img class="img-fluid" src="assets/images/slider-book-5.png" alt="">
+                            </div>
+
+                        
+                        </div>
+                        <!-- If we need pagination -->
+                        <!-- <div class="swiper-pagination"></div> -->
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+                        <!-- If we need scrollbar -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+
+                    <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script> -->
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+                    <script>
+                        const swiper = new Swiper('.swiper', {
+                            loop: true,
+                            slidesPerView: 5,
+                            //slidesPerView: 'auto',
+                            //centredSlides: true,
+                            //spaceBetween: 30,
+                            autoHeight: true,
+                            
+                
+                            // Navigation arrows
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },                
+                        });
+                
+                        /* $(document).ready(function() {
+                            var $swiper = $(".swiper-container");
+                            var $bottomSlide = null; // Slide whose content gets 'extracted' and placed
+                            // into a fixed position for animation purposes
+                            var $bottomSlideContent = null; // Slide content that gets passed between the
+                            // panning slide stack and the position 'behind'
+                            // the stack, needed for correct animation style
+                        }); */
+                       
+                    </script>
